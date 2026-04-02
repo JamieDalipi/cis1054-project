@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>campus-eats</title>
+    <style>
+        html{
+            scroll-behaviour:smooth;
+        }
+        body{
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: black;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+            ul li a{
+                float: right;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                position:sticky;
+            }
+            ul li b{
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 10px 16px;
+                text-decoration: none;
+                font-family: "Papyrus", fantasy;
+                position:sticky;
+            }
+            ul li:hover {
+                background-color: #111111;
+            }
+        }
+        body{
+            background-image: url("https://images.pexels.com/photos/19034915/pexels-photo-19034915.jpeg");
+            background-size: 1400px 400px;
+            background-repeat: no-repeat;
+        }
+        h1{
+            font-family: "Papyrus", fantasy;
+            border: solid black;
+            width: 400px;
+            margin-bottom: 300px;
+            background-color: white;
+        }
+        h2{
+            font-family: "Papyrus", fantasy;
+            font-size: 20px;
+            color: grey;
+        }
+        p{
+            font-family: "Georgia", serif;
+            font-size: 15px;
+            color: darkslategray;
+        }
+        .map-container {
+            width: 100%;
+            max-width: 300px;
+            margin: auto;
+        }
+        .map-container iframe {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#home">Home</a></li>
+    <li><b href="#CampusEats">Campus Eats</b></li>
+</ul>
+<h1 id="home">Welcome to CampusEats!</h1>
+<h2 id="about">About Us</h2>
+<p>CampusEats is the main restaurant for the University of Malta Campus Hub, offering a wide selection of dishes and meals for everyone since October 2021!</p>
+<div class="map-container">
+<iframe
+        src="https://maps.app.goo.gl/yg3tvGnvR4J7CeXg8"
+        width="100%"
+        height="250"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+</iframe>
+</div><h2>Msida</h2>
+<p>Triq – Roberto Ranieri Costaguti,<br> Msida, MSD 2080, Malta</p>
+<p>Opening hours: 08:00-18:00 (MONDAY-FRIDAY)<br>09:30-17:30 (SATURDAY)</p>
+<p id="contact">Contact us: +356 2316 7700</p>
+</body>
+</html>
