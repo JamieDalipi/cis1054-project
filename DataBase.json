@@ -46,7 +46,8 @@
       "desc": "description",
       "Name": "Name6",
       "ID": "6",
-      "longDesc": "A fuller description of item 6",
+      "longDesc": "A fuller description of item 6",\
+      "Catagory_of_food": "thecatagoryoffood"
     }
     {
       "img": "Assets/Images/pic7.jpg",
