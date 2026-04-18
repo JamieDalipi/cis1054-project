@@ -6,49 +6,8 @@
             "type": "php",
             "request": "launch",
             "port": 9003,
-            "preLaunchTask": "Launch on Chrome"
-        },
-        {
-            "name": "Launch currently open script",
-            "type": "php",
-            "request": "launch",
-            "program": "${file}",
-            "cwd": "${fileDirname}",
-            "port": 0,
-            "runtimeArgs": [
-                "-dxdebug.start_with_request=yes"
-            ],
-            "env": {
-                "XDEBUG_MODE": "debug,develop",
-                "XDEBUG_CONFIG": "client_port=${port}"
-            }
-        },
-        {
-            "name": "Launch",
-            "type": "php",
-            "request": "launch",
-            "program": "${workspaceFolder}/homepage.html",
-            "cwd": "${workspaceFolder}",
-            "port": 0,
-            "runtimeArgs": [
-                "-dxdebug.start_with_request=yes"
-            ],
-            "env": {
-                "XDEBUG_MODE": "debug,develop",
-                "XDEBUG_CONFIG": "client_port=${port}"
-            }
-        },
-        {
-            "name": "Debug with Xdebug on port 9000",
-            "type": "php",
-            "request": "launch",
-            "port": 9000
-        },
-        {
-            "name": "Debug with Xdebug on port 9001",
-            "type": "php",
-            "request": "launch",
-            "port": 9001
+            "preLaunchTask": "Launch on Chrome",
+            "stopOnEntry": false
         }
     ]
 }
