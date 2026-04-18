@@ -1,0 +1,1 @@
+These files will be used for the .vscode so that it can run smoothly replace any .vscode with this one and it will use you chrome to work.
