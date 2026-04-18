@@ -1,0 +1,10 @@
+this is how you format each new entry for a the database.json
+    {
+      "img": "Assets/Images/imagename.fileExtension",
+      "desc": "description for owner of database",
+      "Name": "name of item",
+      "ID": "ID number ",
+      "longDesc": "Description for the website",
+      "Catagory": "Catagory EI where it is going",
+      "Price" : "Price if necessary "
+    },
