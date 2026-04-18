@@ -19,7 +19,7 @@
             "label": "Open in Chrome",
             "type": "shell",
             "command": "start",
-            "args": ["chrome", "http://localhost:8000"],
+            "args": ["chrome", "http://localhost:8000/index.html"],
             "group": "build"
         },
         {
