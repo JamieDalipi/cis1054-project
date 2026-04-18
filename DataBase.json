@@ -3,8 +3,8 @@
   "Data": [
     {
       "img": "Assets/Images/Picture1.png",
-      "desc": "description",
-      "Name": "Pasta dish for homepage",
+      "desc": "Pasta dish for homepage",
+      "Name": "Name1",
       "ID": "1",
       "longDesc": "A fuller description of item 1",
       "Catagory": "HomePage",
@@ -12,8 +12,8 @@
     },
     {
       "img": "Assets/Images/Picture2.png",
-      "desc": "description",
-      "Name": "Bowl of soup for homepage",
+      "desc": "Bowl of soup for homepage",
+      "Name": "Name2",
       "ID": "2",
       "longDesc": "A fuller description of item 2",
       "Catagory": "HomePage",
@@ -21,8 +21,8 @@
     },
     {
       "img": "Assets/Images/Picture3.png",
-      "desc": "description",
-      "Name": "Pizza and milkshake for homepage",
+      "desc": "Pizza and milkshake for homepage",
+      "Name": "Name3",
       "ID": "3",
       "longDesc": "A fuller description of item 3",
       "Catagory": "HomePage",
@@ -30,7 +30,7 @@
     },
     {
       "img": "Assets/Images/Picture4.png",
-      "desc": "description",
+      "desc": "Map Location for homepage",
       "Name": "Name4",
       "ID": "4",
       "longDesc": "A fuller description of item 4",
@@ -39,7 +39,7 @@
     },
     {
       "img": "Assets/Images/Picture5.png",
-      "desc": "description",
+      "desc": "Man handing pizza for homepage",
       "Name": "Name5",
       "ID": "5",
       "longDesc": "A fuller description of item 5",
@@ -48,7 +48,7 @@
     },
     {
       "img": "Assets/Images/Picture6.png",
-      "desc": "description",
+      "desc": "Asian womaen getting served food for homepage",
       "Name": "Name6",
       "ID": "6",
       "longDesc": "A fuller description of item 6",
@@ -57,7 +57,7 @@
     },
     {
       "img": "Assets/Images/Picture7.png",
-      "desc": "description",
+      "desc": "Breakfast ham and cheese sandwich for menu page",
       "Name": "Name7",
       "ID": "7",
       "longDesc": "A fuller description of item 7",
@@ -66,7 +66,7 @@
     },
     {
       "img": "Assets/Images/Picture8.png",
-      "desc": "description",
+      "desc": "Bacon and egg breakfast burger for menu page",
       "Name": "Name8",
       "ID": "8",
       "longDesc": "A fuller description of item 8",
@@ -75,7 +75,7 @@
         },
     {
       "img": "Assets/Images/Picture9.png",
-      "desc": "description",
+      "desc": "English Breakfast for menu page",
       "Name": "Name9",
       "ID": "9",
       "longDesc": "A fuller description of item 9",
@@ -84,7 +84,7 @@
    },
     {
       "img": "Assets/Images/Picture10.png",
-      "desc": "description",
+      "desc": "Background image for menu page",
       "Name": "Name10",
       "ID": "10",
       "longDesc": "A fuller description of item 10",
@@ -93,7 +93,7 @@
     },
     {
       "img": "Assets/Images/delicious-cheeseburger-fresh-ingredients-juicy-600nw-2592395811.jpg",
-      "desc": "description",
+      "desc": "Clasic Cheeseburger",
       "Name": "Name11",
       "ID": "11",
       "longDesc": "A fuller description of item 11",
