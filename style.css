@@ -1,0 +1,72 @@
+body{
+    background-image: url('Assets/Picture1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Aclonica-regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'MyOtherCustomFont';
+    src: url("fonts/42SansVar-Roman-VF.ttf") format('truetype');
+}
+p{
+    margin: 10px;
+}
+h1{
+    font-family: 'myOtherCustomFont', sans serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h2{
+    font-family: 'myOtherCustomFont', sans serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+ul li a {
+    float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: 'MyOtherCustomFont', sans serif;
+    font-size: 40px;
+}
+ul li b{
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 48px;
+    color: yellow;
+    text-shadow: black 2px 2px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div {
+    text-align: center;
+    background-color: lightgrey;
+    width: 100px;
+    border: solid 2px lime;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    box-shadow: 1px 2px;
+    box-shadow-spread: 10px;
+}
+
+ul li a:hover {
+    background-color: transparent;
+}
