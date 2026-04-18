@@ -1,1 +1,3 @@
 These files will be used for the .vscode so that it can run smoothly replace any .vscode with this one and it will use you chrome to work.
+in task.json there is a line: "args": ["chrome", "http://localhost:8000/homepage.html"], change what is after  the / to change what 
+is displayied
