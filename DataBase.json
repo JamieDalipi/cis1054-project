@@ -4,7 +4,7 @@
     {
       "img": "Assets/Images/Picture1.png",
       "desc": "description",
-      "Name": "Name1",
+      "Name": "Pasta dish for homepage",
       "ID": "1",
       "longDesc": "A fuller description of item 1",
       "Catagory": "HomePage",
@@ -13,7 +13,7 @@
     {
       "img": "Assets/Images/Picture2.png",
       "desc": "description",
-      "Name": "Name2",
+      "Name": "Bowl of soup for homepage",
       "ID": "2",
       "longDesc": "A fuller description of item 2",
       "Catagory": "HomePage",
@@ -22,7 +22,7 @@
     {
       "img": "Assets/Images/Picture3.png",
       "desc": "description",
-      "Name": "Name3",
+      "Name": "Pizza and milkshake for homepage",
       "ID": "3",
       "longDesc": "A fuller description of item 3",
       "Catagory": "HomePage",
