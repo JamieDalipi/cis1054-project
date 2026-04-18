@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003,
+            "preLaunchTask": "Launch on Chrome"
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 0,
+            "runtimeArgs": [
+                "-dxdebug.start_with_request=yes"
+            ],
+            "env": {
+                "XDEBUG_MODE": "debug,develop",
+                "XDEBUG_CONFIG": "client_port=${port}"
+            }
+        },
+        {
+            "name": "Launch index.php",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.php",
+            "cwd": "${workspaceFolder}",
+            "port": 0,
+            "runtimeArgs": [
+                "-dxdebug.start_with_request=yes"
+            ],
+            "env": {
+                "XDEBUG_MODE": "debug,develop",
+                "XDEBUG_CONFIG": "client_port=${port}"
+            }
+        },
+        {
+            "name": "Debug with Xdebug on port 9000",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+        },
+        {
+            "name": "Debug with Xdebug on port 9001",
+            "type": "php",
+            "request": "launch",
+            "port": 9001
+        }
+    ]
+}
