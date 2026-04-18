@@ -27,7 +27,7 @@
             "name": "Launch index.php",
             "type": "php",
             "request": "launch",
-            "program": "${workspaceFolder}/index.php",
+            "program": "${workspaceFolder}/homepage.html",
             "cwd": "${workspaceFolder}",
             "port": 0,
             "runtimeArgs": [
