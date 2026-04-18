@@ -1,5 +1,5 @@
 .section1{
-    height: 100vh;
+    height: 80vh;
     background-image: url('Assets/Picture1.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,23 +35,28 @@ h2{
     font-size: 48px;
     font-weight: 400;
 }
+
 ul {
+    box-sizing: border-box;
+    display: flex; position: fixed;
     top: 0;
-    list-style-type: none;
+    left: 0;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: sticky;
+    list-style: none;
+    background: transparent;
     z-index: 9999;
 }
+ul li:first-child{
+    margin-right: auto;
+}
 ul li a {
-    float: right;
-    display: block;
+    display: flex;
     color: gray;
     text-align: center;
     padding: 15px 20px;
-    text-decoration: none;
     font-family: 'MyOtherCustomFont', sans serif;
+    text-decoration: none;
     font-size: 40px;
 }
 ul li b{
@@ -59,7 +64,6 @@ ul li b{
     font-size: 48px;
     color: yellow;
     text-shadow: black 2px 2px;
-    float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -79,6 +83,9 @@ ul.scrolled li a{
 ul.scrolled li b{
     font-size: 40px;
     -webkit-text-stroke: 0;
+}
+.li.logo{
+    margin-right: auto;
 }
 div.menu {
     font-family: 'myOtherCustomFont', sans serif;
