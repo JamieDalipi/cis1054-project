@@ -1,4 +1,4 @@
-This is how i tested the database
+This is how i tested the database it allows for data centric shit as long as you save the visual studio code
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,30 +21,24 @@ This is how i tested the database
     <div id="menu" class="menu-grid">Loading menu items...</div>
 
     <script>
-        async function fetchMenu() {
-            const menuContainer = document.getElementById('menu');
-            
-            try {
-                console.log('Fetching DataBase.json...');
-                const response = await fetch('DataBase.json');
-                console.log('Response status:', response.status);
-                if (!response.ok) throw new Error('Failed to load database');
-                
-                const data = await response.json();
-                console.log('Parsed data:', data);
-                console.log('data.Data:', data.Data);
-                menuContainer.innerHTML = ''; // Clear loading text
+        let menuData = null;
 
-                // Accessing the "Data" array from your JSON
-                if (!data.Data) {
-                    throw new Error('Data.Data is undefined');
-                }
-                data.Data.forEach(item => {
+        function renderMenu() {
+            const menuContainer = document.getElementById('menu');
+            menuContainer.innerHTML = ''; // Clear loading text
+
+            if (!menuData || !menuData.Data) {
+                menuContainer.innerHTML = '<p>Loading menu data...</p>';
+                return;
+            }
+
+            try {
+                menuData.Data.forEach(item => {
                     const card = document.createElement('div');
                     card.className = 'card';
 
                     card.innerHTML = `
-                        <img src="${item.img}" alt="${item.Name}">
+                        <img src="${item.img}" alt="${item.Name}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='">
                         <p class="category">${item.Catagory}</p>
                         <h3>${item.Name}</h3>
                         <p>${item.desc}</p>
@@ -54,13 +48,90 @@ This is how i tested the database
                     menuContainer.appendChild(card);
                 });
 
+                console.log('Menu rendered successfully');
             } catch (error) {
-                console.error('Error details:', error);
-                menuContainer.innerHTML = `<p style="color:red">Error: ${error.message}</p><p style="color:gray; font-size:12px">Check browser console (F12) for more details</p>`;
+                console.error('Error rendering menu:', error);
+                menuContainer.innerHTML = `<p style="color:red">Error: ${error.message}</p>`;
             }
         }
 
-        fetchMenu();
+        // Function to fetch menu data from DataBase.json
+        async function fetchMenuData() {
+            try {
+                console.log('Fetching menu data from DataBase.json...');
+                const response = await fetch('DataBase.json', {
+                    cache: 'no-cache',
+                    headers: {
+                        'Cache-Control': 'no-cache'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                console.log('Menu data fetched successfully:', data);
+
+                if (!data || !data.Data) {
+                    throw new Error('Invalid data structure: missing Data array');
+                }
+
+                menuData = data;
+                renderMenu();
+
+            } catch (error) {
+                console.error('Error fetching menu data:', error);
+                const menuContainer = document.getElementById('menu');
+                menuContainer.innerHTML = `
+                    <div style="text-align: center; padding: 20px;">
+                        <p style="color:red; font-size: 18px;">❌ Database Connection Failed</p>
+                        <p style="color: #666;">${error.message}</p>
+                        <p style="color: #999; font-size: 14px;">
+                            To fix this:<br>
+                            1. Make sure you're running a local server<br>
+                            2. Or open the HTML file directly (file://) - but fetch won't work<br>
+                            3. Check that DataBase.json exists and is valid
+                        </p>
+                    </div>
+                `;
+            }
+        }
+
+        // Function to check for updates (real-time functionality)
+        async function checkForUpdates() {
+            if (!menuData) return; // Don't check if we haven't loaded data yet
+
+            try {
+                const response = await fetch('DataBase.json', {
+                    cache: 'no-cache',
+                    headers: { 'Cache-Control': 'no-cache' }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // Check if data has actually changed (compare relevant fields only)
+                    const currentDataStr = JSON.stringify(menuData.Data);
+                    const newDataStr = JSON.stringify(data.Data);
+
+                    if (newDataStr !== currentDataStr) {
+                        console.log('Menu data updated, refreshing...');
+                        menuData = data;
+                        renderMenu();
+                    }
+                }
+            } catch (error) {
+                // Silently fail - updates will be checked again later
+                console.log('Update check failed:', error.message);
+            }
+        }
+
+        // Initial load
+        fetchMenuData();
+
+        // Check for updates every 5 seconds for real-time functionality
+        setInterval(checkForUpdates, 5000);
     </script>
 </body>
 </html>
