@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "Launch index.php",
+            "name": "Launch",
             "type": "php",
             "request": "launch",
             "program": "${workspaceFolder}/homepage.html",
