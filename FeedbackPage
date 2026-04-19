@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel='stylesheet' href="Style.css">
+    <link rel='stylesheet' href="StyleRedirect.css">
+</head>
+<body>
+<ul>
+    <li class="logo"><b>CampusEats</b></li>
+    <li><a>Contact</a></li>
+    <li><a>About</a></li>
+    <li><a>Home</a></li>
+</ul>
+<br>
+<div>
+    <img src="Assets/Image.jpg" width="100" height="100">
+    <div class="popup">
+        Thank you for submitting your feedback, we will reach out to you shortly!
+    </div>
+    <div class="desc">
+        Go back to the homepage<br>
+        <a href="Homepage.html">Homepage</a>
+    </div>
+</div>
+</body>
+</html>
