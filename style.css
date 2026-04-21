@@ -7,11 +7,11 @@
 }
 @font-face {
     font-family: 'MyCustomFont';
-    src: url('Aclonica-regular.ttf') format('truetype');
+    src: url('Assets/fonts/Aclonica-regular.ttf') format('truetype');
 }
 @font-face{
     font-family: 'MyOtherCustomFont';
-    src: url("fonts/42SansVar-Roman-VF.ttf") format('truetype');
+    src: url("Assets/fonts/42SansVar-Roman-VF.ttf") format('truetype');
 }
 p{
     margin: 50px;
