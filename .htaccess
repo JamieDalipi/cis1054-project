@@ -1,0 +1,4 @@
+#deney acces to files with extentions .ini .json .html
+<FilesMatch "\.(ini|json)$">
+    Require all denied
+</FilesMatch>
