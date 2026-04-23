@@ -2,3 +2,4 @@
 <FilesMatch "\.(ini|json)$">
     Require all denied
 </FilesMatch>
+Options -Indexes
