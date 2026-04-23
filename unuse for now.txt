@@ -5,3 +5,4 @@ php_flags display_startup_errors on
     Require all denied
 </FilesMatch>
 Options -Indexes
+will be .htaccess
