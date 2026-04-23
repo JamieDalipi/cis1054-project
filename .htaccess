@@ -1,3 +1,5 @@
+php_flags display_errors on #turn off after testing
+php_flags display_startup_errors on
 #deney acces to files with extentions .ini .json .html
 <FilesMatch "\.(ini|json)$">
     Require all denied
