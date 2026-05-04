@@ -8,7 +8,7 @@
 }
 body{
     height: 80vh;
-    background-image: url("Assets/Picture10.png");
+    background-image: url("Assets/Images/Picture10.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
