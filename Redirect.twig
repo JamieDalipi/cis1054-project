@@ -7,21 +7,16 @@
     <link rel='stylesheet' href="StyleRedirect.css">
 </head>
 <body>
-<ul>
-    <li class="logo"><b>CampusEats</b></li>
-    <li><a href="Homepage.html">Home</a></li>
-    <li><a>About</a></li>
-    <li><a>Contact</a></li>
-</ul>
+{% include 'navbar.twig' %}
 <br>
 <div>
-    <img src="Assets/Image.jpg" width="100" height="100">
+    <img src="Assets/Images/Image.jpg" width="100" height="100">
     <div class="popup">
         Thank you for submitting your feedback, we will reach out to you shortly!
     </div>
     <div class="desc">
         Go back to the homepage<br>
-        <a href="Homepage.html">Homepage</a>
+        <a href="Homepage.twig">Homepage</a>
     </div>
 </div>
 </body>
