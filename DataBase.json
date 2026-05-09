@@ -99,6 +99,33 @@
       "longDesc": "A fuller description of item 11",
       "Catagory": "Menu",
       "Price": "price_of_food"
+    },
+    {
+      "img": "Assets/Images/caeser-salad.jpg",
+      "desc": "Caesar Salad",
+      "Name": "Name12",
+      "ID": "12",
+      "longDesc": "A fuller description of item 12",
+      "Catagory": "Menu",
+      "Price": "price_of_food"
+    },
+    {
+      "img": "Assets/Images/pizza.jpeg",
+      "desc": "Pepperoni Pizza",
+      "Name": "Name13",
+      "ID": "13",
+      "longDesc": "A fuller description of item 13",
+      "Catagory": "Menu",
+      "Price": "price_of_food"
+    },
+    {
+      "img": "Assets/Images/Service-1.png",
+      "desc": "Spaghetti and Meatballs",
+      "Name": "Name14",
+      "ID": "14",
+      "longDesc": "A fuller description of item 14",
+      "Catagory": "Menu",
+      "Price": "price_of_food"
     }
   ],
     "Info": [
