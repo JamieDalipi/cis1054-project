@@ -126,6 +126,15 @@
       "longDesc": "A fuller description of item 14",
       "Catagory": "Menu",
       "Price": "price_of_food"
+    },
+    {
+      "img": "Assets/Images/meal.jpg",
+      "desc": "A meal consisting of a fruit, salad, and a drink",
+      "Name": "Name15",
+      "ID": "15",
+      "longDesc": "A fuller description of item 15",
+      "Catagory": "Menu",
+      "Price": "price_of_food"
     }
   ],
     "Info": [
