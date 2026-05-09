@@ -1,0 +1,32 @@
+body{
+    height: 80vh;
+    background-image: url("Assets/Picture10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.menuoption{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    grid-column-gap: 40px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.menuoption div{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: MyOtherCustomFont, sans-serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+a.active{
+    text-decoration: underline;
+}
