@@ -101,7 +101,7 @@
       "Price": "price_of_food"
     },
     {
-      "img": "Assets/Images/caeser-salad.jpg",
+      "img": "Assets/Images/caeser salad.jpg",
       "desc": "Caesar Salad",
       "Name": "Name12",
       "ID": "12",
@@ -119,8 +119,8 @@
       "Price": "price_of_food"
     },
     {
-      "img": "Assets/Images/Service-1.png",
-      "desc": "Spaghetti and Meatballs",
+      "img": "Assets/Images/Service 1.jpg",
+      "desc": "Service of a waiter serving food",
       "Name": "Name14",
       "ID": "14",
       "longDesc": "A fuller description of item 14",
