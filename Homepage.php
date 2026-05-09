@@ -10,5 +10,5 @@ $twig = new Environment($loader);
 
 echo $twig->render('Homepage.twig', [
     'siteName' => 'CampusEats',
-    'currentPage' => 'homepage.php'
+    'currentPage' => 'Homepage.php'
 ]);
