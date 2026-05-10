@@ -17,16 +17,16 @@ body{
     font-size: 40px;
     font-weight: 500;
     font-family: MyOtherCustomFont, sans-serif;
-    color: black;
+}
+.menuoption div:hover{
+    text-decoration: underline;
 }
 a{
     text-decoration: none;
     color: black;
 }
-a:hover{
-    color: darkorange;
-    text-decoration: underline;
-}
 a.active{
     text-decoration: underline;
+    color: yellow;
+    text-shadow: 2px 2px #000000
 }
