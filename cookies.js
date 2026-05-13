@@ -1,3 +1,4 @@
+//will need more updates
 // Helper to get the favorites array from the cookie
 function getFavoritesFromCookie() {
     const name = "userFavorites=";
