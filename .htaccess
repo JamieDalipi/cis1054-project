@@ -1,1 +1,6 @@
 ErrorDocument 404 /404_page.html
+php_flags display_startup_errors on
+#deney acces to files with extentions .ini .json .html
+<FilesMatch "\.(ini|json)$">
+    Require all denied
+</FilesMatch>
