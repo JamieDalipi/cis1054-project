@@ -2,142 +2,238 @@
 {
   "Data": [
     {
-      "img": "Assets/Images/Picture1.png",
-      "desc": "Pasta dish for homepage",
-      "Name": "Name1",
+      "img": "Assets/Images/Bacon-and-Egg-Bagels.jpg",
+      "desc": "Classic New York styled Bagels cut into two slices in a plate, composed of bacon and eggs",
+      "Name": "Bacon & Egg Bagels",
       "ID": "1",
-      "longDesc": "A fuller description of item 1",
-      "Catagory": "HomePage",
-      "Price" : "price_of_food"
+      "Ingredients": "Fried Bacon, Fried Eggs, Bread",
+      "Category": "Breakfast",
+      "Price" : "€4.50"
     },
     {
-      "img": "Assets/Images/Picture2.png",
-      "desc": "Bowl of soup for homepage",
-      "Name": "Name2",
+      "img": "Assets/Images/Brownies.jpg",
+      "desc": "Rich and Flavored chocolate/caramel brownies to your liking",
+      "Name": "Brownies",
+      "ID": "1",
+      "Ingredients": "Butter, Sugar, Eggs, Cocoa Eggs, Cocoa-Powder, Caramel (optional), Flour, Vanilla Extract, Salt (optional)",
+      "Category": "Desserts",
+      "Price": "€3.25 per piece"
+    },
+    {
+      "img": "Assets/Images/Cappuccino.jpg",
+      "desc": "Cappuccino Coffee in a mug, served with additional milk",
+      "Name": "Cappuccino",
+      "ID": "1",
+      "Ingredients": "Espresso, Water, Milk (Optional), Milk Foam",
+      "Category": "Drinks",
+      "Price": "€4.00"
+    },
+    {
+      "img": "Assets/Images/Cheeseburger-With-Fries.jpg",
+      "desc": "Standard Cheeseburger, with optional fries as a side dish",
+      "Name": "Cheeseburger",
+      "ID": "1",
+      "Ingredients": "Patties, Steak, Cheese, Bacon (Optional), Tomatoes, Fries (Optional)",
+      "Category": "Main",
+      "Price": "€6.00, €7.50 w/Fries"
+    },
+    {
+      "img": "Assets/Images/Chocolate-Cake.jpg",
+      "desc": "A slice of chocolate cake",
+      "Name": "Chocolate Cake",
       "ID": "2",
-      "longDesc": "A fuller description of item 2",
-      "Catagory": "HomePage",
-      "Price": "price_of_food"
+      "Ingredients": "Flour, Sugar, Cocoa Powder, Baking Powder, Baking Soda, Salt (Optional), Eggs, Milk",
+      "Category": "Desserts",
+      "Price": "€3.50 per slice"
     },
     {
-      "img": "Assets/Images/Picture3.png",
-      "desc": "Pizza and milkshake for homepage",
-      "Name": "Name3",
+      "img": "Assets/Images/Coca-Cola.jpg",
+      "desc": "a bottle of coca cola",
+      "Name": "Coca Cola",
+      "ID": "2",
+      "Ingredients": "Coca Cola, Sugar (Optional)",
+      "Category": "Drinks",
+      "Price": "€1.50 (500 ml), €2.00 (1 l), €2.50 (1.5 l)"
+    },
+    {
+      "img": "Assets/Images/Egg-Toast.jpg",
+      "desc": "Egg Toast, made with standard bread mixed with fried eggs",
+      "Name": "Egg Toast",
+      "ID": "2",
+      "Ingredients": "Egg, Bread",
+      "Category": "Breakfast",
+      "Price": "€2.50"
+    },
+    {
+      "img": "Assets/Images/English-Breakfast.jpg",
+      "desc": "A traditional English breakfast, served with additional sausages",
+      "Name": "English Breakfast",
       "ID": "3",
-      "longDesc": "A fuller description of item 3",
-      "Catagory": "HomePage",
-      "Price": "price_of_food"
+      "Ingredients": "Bacon, Beans, Sausages (Optional), Fried Egg, Toast, Tomatoes",
+      "Category": "Breakfast",
+      "Price": "€5.75 (Without Sausages), €6.25 (With Sausages)"
     },
     {
-      "img": "Assets/Images/Picture4.png",
-      "desc": "Map Location for homepage",
-      "Name": "Name4",
-      "ID": "4",
-      "longDesc": "A fuller description of item 4",
-      "Catagory": "HomePage",
-      "Price": "price_of_food"
+      "img": "Assets/Images/Fruit-Dessert-Whipped-Cream.jpg",
+      "desc": "A strawberry in a glass, served with whipped cream and cherry on top",
+      "Name": "Fruit Dessert",
+      "ID": "3",
+      "Ingredients": "Strawberry, Whipped Cream, Cherry, Biscuits",
+      "Category": "Desserts",
+      "Price": "€5.00"
     },
     {
-      "img": "Assets/Images/Picture5.png",
-      "desc": "Man handing pizza for homepage",
-      "Name": "Name5",
-      "ID": "5",
-      "longDesc": "A fuller description of item 5",
-      "Catagory": "ContactUs",
-      "Price": "price_of_food"
+      "img": "Assets/Images/Gyro-Wrap.jpg",
+      "desc": "A traditional Greek Gyro wrap, could also be served in a plate",
+      "Name": "Gyro Wrap",
+      "ID": "1",
+      "Ingredients": "Roasted Meat (Lamp, Pork, Chicken), Tzatziki Sauce, Tomatoes, Onions, Pita Bread, Fries",
+      "Category": "Main",
+      "Price": "€7.50"
     },
     {
-      "img": "Assets/Images/Picture6.png",
-      "desc": "Asian womaen getting served food for homepage",
-      "Name": "Name6",
-      "ID": "6",
-      "longDesc": "A fuller description of item 6",
-      "Catagory": "ContactUs",
-      "Price": "price_of_food"
-    },
-    {
-      "img": "Assets/Images/Picture7.png",
-      "desc": "Breakfast ham and cheese sandwich for menu page",
-      "Name": "Name7",
-      "ID": "7",
-      "longDesc": "A fuller description of item 7",
-      "Catagory": "Breakfast",
-      "Price": "price_of_food"
-    },
-    {
-      "img": "Assets/Images/Picture8.png",
-      "desc": "Bacon and egg breakfast burger for menu page",
-      "Name": "Name8",
-      "ID": "8",
-      "longDesc": "A fuller description of item 8",
-      "Catagory": "Breakfast",
-      "Price": "price_of_food"
-        },
-    {
-      "img": "Assets/Images/Picture9.png",
-      "desc": "English Breakfast for menu page",
-      "Name": "Name9",
-      "ID": "9",
-      "longDesc": "A fuller description of item 9",
-      "Catagory": "Breakfast",
-      "Price": "price_of_food"
-   },
-    {
-      "img": "Assets/Images/Picture10.png",
-      "desc": "Background image for menu page",
-      "Name": "Name10",
-      "ID": "10",
-      "longDesc": "A fuller description of item 10",
-      "Catagory": "BackgroundMenu",
-      "Price": "price_of_food"
-    },
-    {
-      "img": "Assets/Images/delicious-cheeseburger-fresh-ingredients-juicy-600nw-2592395811.jpg",
-      "desc": "Clasic Cheeseburger",
-      "Name": "Name11",
-      "ID": "11",
-      "longDesc": "A fuller description of item 11",
-      "Catagory": "Menu",
-      "Price": "price_of_food"
+      "img": "Assets/Images/Hot-Chocolate.jpg",
+      "desc": "Hot Chocolate in a mug",
+      "Name": "Hot Chocolate",
+      "ID": "3",
+      "Ingredients": "Chocolate, Lukewarm Milk",
+      "Category": "Drinks",
+      "Price": "€3.00"
     },
     {
       "img": "Assets/Images/caeserSalad.jpg",
-      "desc": "Caesar Salad",
-      "Name": "Name12",
-      "ID": "12",
-      "longDesc": "A fuller description of item 12",
-      "Catagory": "Menu",
-      "Price": "price_of_food"
+      "desc": "Classic Caesar Salad",
+      "Name": "Caesar Salad",
+      "ID": "4",
+      "Ingredients": "Lettuce, Tomatoes, Garlic Cruotons, Parmesean cheese, Egg Yolk, Olive Oil, Juice, Mustard, Anchovies",
+      "Category": "Breakfast",
+      "Price": "€6.50"
     },
     {
-      "img": "Assets/Images/pizza.jpeg",
-      "desc": "Pepperoni Pizza",
-      "Name": "Name13",
-      "ID": "13",
-      "longDesc": "A fuller description of item 13",
-      "Catagory": "Menu",
-      "Price": "price_of_food"
+      "img": "Assets/Images/Hotdog-With-Fries.jpg",
+      "desc": "Hotdog with mustard on top, served with fries",
+      "Name": "Hotdog",
+      "ID": "2",
+      "Ingredients": "Bread, Sausage, Mustard, Ketchup, Mayonnaise, Fries (Optional)",
+      "Category": "Main",
+      "Price": "€6.50, €7.50 (with fries)"
     },
     {
-      "img": "Assets/Images/Service1.jpg",
-      "desc": "Service of a waiter serving food",
-      "Name": "Name14",
-      "ID": "14",
-      "longDesc": "A fuller description of item 14",
-      "Catagory": "Menu",
-      "Price": "price_of_food"
+      "img": "Assets/Images/Kebab-With-Fries.jpg",
+      "desc": "Traditional Turkish Doner Kebab, made with the ingredients of your choice, could also be served on a plate",
+      "Name": "Kebab",
+      "ID": "3",
+      "Ingredients": "Wrap, Doner (Chicken, Lamb), Fries (Optional), Coleslaw (Optional), Tomatoes (Optional), Yogurt Sauce, Paprika (Optional), Garlic Seasoning, Onion (Optional)",
+      "Category": "Main",
+      "Price": "€8.00, €9.00 (with fries)"
     },
     {
-      "img": "Assets/Images/meal.jpg",
-      "desc": "A meal consisting of a fruit, salad, and a drink",
-      "Name": "Name15",
-      "ID": "15",
-      "longDesc": "A fuller description of item 15",
-      "Catagory": "Menu",
-      "Price": "price_of_food"
+      "img": "Assets/Images/Maki-Sushi.jpg",
+      "desc": "Sushi with Salmon and Rice Fillings, wrapped in seaweed",
+      "Name": "Maki sushi",
+      "ID": "1",
+      "Ingredients": "Rice, seaweed, raw salmon, avocado (optional), cucumber (optional)",
+      "Category": "Sushi",
+      "Price": "€3.00 per piece"
+    },
+    {
+      "img": "Assets/Images/Mussels-in-Bowl.jpg",
+      "desc": "40 cooked mussels, served in a bowl",
+      "Name": "Mussels",
+      "ID": "4",
+      "Ingredients": "Mussels",
+      "Category": "Main",
+      "Price": "€9.50"
+    },
+    {
+      "img": "Assets/Images/Nigiri-Sushi.jpg",
+      "desc": "Standard Nigiri Sushi with no wrappings",
+      "Name": "Nigiri Sushi",
+      "ID": "2",
+      "Ingredients": "Rice, Sugar, Salt, Salmon, Soy-Sauce",
+      "Category": "Sushi",
+      "Price": "€2.50 per piece"
+    },
+    {
+      "img": "Assets/Images/Pasta-Capriciosa.jpg",
+      "desc": "Italian Pasta Capricciosa, mixing spaghetti and meat in a plate",
+      "Name": "Pasta Capricciosa",
+      "ID": "5",
+      "Ingredients": "Pasta, Ham, Prosciutto, Mushrooms (Optional), Olives (Optional), Parmesean Cheese, Tomato Sauce",
+      "Category": "Main",
+      "Price": "€7.00"
+    },
+    {
+      "img": "Assets/Images/Pizza-with-Tomatoes.jpg",
+      "desc": "Pizza with spicy tomato slices",
+      "Name": "Pizza w/Tomatoes",
+      "ID": "6",
+      "Ingredients": "Dough, Mozzarella, Tomato Sauce, Tomato Slices, Salt",
+      "Category": "Main",
+      "Price": "€6.00 (Small), €7.00 (Medium), €9.00 (Large)"
+    },
+    {
+      "img": "Assets/Images/Sashimi-Sushi.jpg",
+      "desc": "Sushi served as slices of raw fish",
+      "Name": "Sashimi Sushi",
+      "ID": "3",
+      "Ingredients": "Raw Salmon, Soy-Sauce",
+      "Category": "Sushi",
+      "Price": "€2.00 per piece"
+    },
+    {
+      "img": "Assets/Images/Steak.jpg",
+      "desc": "A big portion of well-done steak on a plate",
+      "Name": "Steak",
+      "ID": "7",
+      "Ingredients": "Steak, Seasoning, Lemon Juice (Optional)",
+      "Category": "Main",
+      "Price": "€11.00"
+    },
+    {
+      "img": "Assets/Images/Tea.jpg",
+      "desc": "Tea in a mug with a customizable flavor",
+      "Name": "Tea",
+      "ID": "4",
+      "Ingredients": "Hot Water, Peppermint (optional), Black (optional), Green (Optional), White (Optional)",
+      "Category": "Drinks",
+      "Price": "€11.00"
+    },
+    {
+      "img": "Assets/Images/Tiramisu.jpg",
+      "desc": "Sweet Tiramisu, offered in a glass",
+      "Name": "Tiramisu",
+      "ID": "4",
+      "Ingredients": "Cheese, Eggs, Sugar, Cocoa Powder, Caffeine",
+      "Category": "Desserts",
+      "Price": "€5.00"
+    },
+    {
+      "img": "Assets/Images/Urumaki-Sushi.jpg",
+      "desc": "Sushi consisting of rice and salmon wrapped inside a nori sheet",
+      "Name": "Uramaki Sushi",
+      "ID": "5",
+      "Ingredients": "Rice, Salmon, Cucumber (optional), Sesame Seeds",
+      "Category": "Sushi",
+      "Price": "€4.00 per piece"
+    },
+    {
+      "img": "Assets/Images/Vanilla-Ice-Cream.jpg",
+      "desc": "Vanilla Ice-Cream, served in a glass",
+      "Name": "Vanilla Ice-Cream",
+      "ID": "5",
+      "Ingredients": "Cream, Milk, Vanilla, Sugar",
+      "Category": "Desserts",
+      "Price": "€4.00"
+    },
+    {
+      "img": "Assets/Images/Water-Bottle.jpg",
+      "desc": "Water Bottle",
+      "Name": "Water Bottle",
+      "ID": "5",
+      "Ingredients": "Water",
+      "Category": "Drinks",
+      "Price": "€0.50 (500ml), €1.00 (1 l), €1.50 (2 l)"
     }
-  ],
-    "Info": [
-    
   ]
 }
