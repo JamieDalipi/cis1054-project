@@ -1,1 +1,13 @@
-
+body{
+    height: 80vh;
+    background-image: url("Assets/Picture10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+h1{
+    font-family: 'MyOtherCustomFont', serif;
+}
+p{
+    font-family: 'MyOtherCustomFont', serif;
+}
