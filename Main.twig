@@ -16,5 +16,20 @@
     <div><a href="Desserts.php">DESSERTS</a></div>
     <div><a href="Drinks.php">DRINKS</a></div>
 </div>
+<br>
+<div class="items-container">
+    {% for item in main %}
+        <a href="Details.php?id={{ item.id }}&category={{ item.Category }}">
+            <div class="item">
+                <img src="{{ item.image }}" width="200" height="200">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.desc }}</p>
+                <br>
+                <p>{{ item.price }}</p>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+</a>
 </body>
 </html>
