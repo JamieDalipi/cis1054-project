@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% extends "layout.twig" %}
+
+
+{% block page_title %}Contact Us{% endblock %}
+
+    <link rel="stylesheet" href="Assets/css/main.css">
+
+{% block content %}
+<h1>Get in touch we at CampusEats love to hear from our Customers!</h1>
+<p>Call us on {{ business.phone }} to get in touch with us</p>
+<p>Alternatively, you can email us on {{ business.email }}</p>
+<p>Should you like to contact us or send
+   us your feedback vie email, 
+   please fill in and submit the form below. 
+   Kindly let us know where you would like to direct
+   your comment to by selecting an option from
+   the drop down menu</p>
+  
+<img src = "assets/images/meal.jpg" alt="Meal">
+<img src = "assets/images/Service-1.jpg" alt="Service 1">
+  <form method="post" action=" <?php echo htmlspecialchars($_SERVER[PHP_SELF]);?>">
+  <label for="fname">Name:   *</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <span class="<?php
+       if(!empty($nameErr)){
+           echo 'error-input';
+       }
+       ?>"></span>
+<br><br>
+  <label for="email">Email:   *</label><br>
+  <input type="email" name="email"><br>
+  <span class="<?php
+       if(!empty($emailErr)){
+           echo 'error-input';
+       }
+       ?>"></span>
+  <br><br>
+  <label for="pnumber">Phone Number:   *</label><br>
+  <input type="text" name="pnumber"><br>
+  <span class="<?php
+        if(!empty($pnumberErr)){
+           echo 'error-input';
+       }
+       ?>"></span>
+  <label for="request">What kind of message would you like to make?</label><br>
+  <select name="request" id="request">
+    <option value="query">Query</option>
+    <option value="complaint">Complaint</option>
+    <option value="bookingrequest">Booking request</option>
+  </select>
+  <label for="Message">Message:</label><br>
+  <textarea name="comment" rows="5" cols="40"></textarea><br>
+  <input type="submit" value="Submit">
+</form>  
+{% endblock %}
