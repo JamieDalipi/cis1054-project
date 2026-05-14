@@ -10,11 +10,22 @@
     {% include 'navbar.twig' %}
     <br><br><br><br><br><br><br><br>
     <div class="option">
-        <a href="Breakfast.php"><div>Breakfast</div></a>
-        <a href="Sushi.php"><div>Sushi</div></a>
-        <a href="Main.php"><div>Main</div></a>
-        <a href="Desserts.php"><div>Desserts</div></a>
-        <a href="Drinks.php"><div>Drinks</div></a>
+        <a href="Breakfast.php"><div>Breakfast
+            <br>
+                <img src="{{ breakfastItem.image }}" alt="{{ breakfastItem.name }}" width="200" height="200" style="position:relative; left:-23px; margin-top:15px;">
+            </div></a>
+        <a href="Sushi.php"><div>Sushi<br>
+                <img src="{{ sushiItem.image }}" alt="{{ sushiItem.name }}"  width="200" height="200" style="position:relative; left:-23px; margin-top:15px;">
+            </div></a>
+        <a href="Main.php"><div>Main
+                <img src="{{ mainItem.image }}" alt="{{ mainItem.name }}" width="200" height="200" style="position:relative; left:-23px; margin-top:15px;">
+            </div></a>
+        <a href="Desserts.php"><div>Desserts<br>
+                <img src="{{ dessertItem.image }}" alt="{{ dessertItem.name }}"  width="200" height="200" style="position:relative; left:-23px; margin-top:15px;">
+            </div></a>
+        <a href="Drinks.php"><div>Drinks<br>
+                <img src="{{ DrinksItem.image }}" alt="{{ DrinksItem.name }}" width="200" height="200" style="position:relative; left:-23px; margin-top:15px;">
+            </div></a>
     </div>
 </body>
 </html>
