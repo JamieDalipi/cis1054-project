@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ item.name }}</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="DetailsStyle.css">
+</head>
+<body>
+{% include 'navbar.twig' %}
+<br><br><br><br>
+<h1>{{ item.name }}</h1>
+<img src="{{ item.image }}" alt="{{ item.name }}" width="300" height="300">
+<p>{{ item.desc }}</p>
+<p>{{ item.ingredients }}</p>
+<p>Category: {{ item.category }}</p>
+<p>Price: {{ item.price }}</p>
+<button class="button" type="button" onclick="favourites()"><i class="fas fa-heart"></i></button>
+
+<script>
+function favourites() {
+    button.classList.add("active");
+    alert("{{ item.name }} has been added to your favourites!");
+    saveToFavourites({{ item.id }});
+}
+
+</body>
+</html>
