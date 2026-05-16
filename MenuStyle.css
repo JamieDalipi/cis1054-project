@@ -17,7 +17,7 @@ body{
     font-weight: 500;
     background-color:white;
     border: 5px solid black;
-    font-family: 'MyOtherCustomFont', sans serif;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 40px;
     border-radius: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
