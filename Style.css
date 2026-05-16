@@ -16,6 +16,7 @@ ul {
     margin: 0;
     list-style: none;
     z-index: 9999;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
 }
 ul li:first-child{
     margin-right: auto;
@@ -25,12 +26,10 @@ ul li a {
     color: gray;
     text-align: center;
     padding: 15px 20px;
-    font-family: 'MyOtherCustomFont', sans serif;
     text-decoration: none;
     font-size: 32px;
 }
 ul li b{
-    font-family: 'MyCustomFont', sans-serif;
     font-size: 40px;
     color: yellow;
     text-shadow: black 2px 2px;
