@@ -6,7 +6,7 @@ body{
     position: relative;
 }
 h1, p, h2{
-    font-family: 'MyOtherCustomFont', serif;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
 }
 .container {
     display: grid;
@@ -27,7 +27,7 @@ h1, p, h2{
 }
 label{
     font-size: 15px;
-    font-family: 'MyOtherCustomFont', serif;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
 }
 textarea{
     background-color: lightgrey;
@@ -59,7 +59,7 @@ input[type=text], input[type=email], select {
 }
 
 span {
-    font-family: MyOtherCustomFont, serif;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
     color: red;
     border-radius: 5px;
     border: 2px solid red;
