@@ -9,18 +9,17 @@ div{
     display: block;
     width: 750px;
     margin: 0 auto;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
     left: 50%;
     text-align: center;
     background-color: white;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 div.popup{
-    font-family: 'MyOtherCustomFont', sans serif;
     font-size: 48px;
     color: darkblue;
     text-align: center;
 }
 div.desc{
-    font-family: black, 'MyOtherCustomFont', sans serif;
     font-size: 32px;
 }
