@@ -9,6 +9,7 @@
 ul {
     box-sizing: border-box;
     display: flex; position: fixed;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,7 +17,6 @@ ul {
     margin: 0;
     list-style: none;
     z-index: 9999;
-    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
 }
 ul li:first-child{
     margin-right: auto;
@@ -52,6 +52,38 @@ div.flex-container {
     display: flex;
     flex-direction: row;
 }
-a{
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+}
+.footer a {
     text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+.footer h3{
+    color: inherit;
+    font-size: 32px;
+    font-weight: 400;
+}
+.footer h4{
+    color: inherit;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer a:hover{
+    text-decoration: underline
+}
+.container1 {
+    display: grid;
+    grid-template-areas:
+    "col1 col2 col3";
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    grid-template-columns: 1.3fr 1.3fr 1.4fr;
+    padding: 5px;
 }
