@@ -1,10 +1,45 @@
-this is how you format each new entry for a the database.json
-    {
-      "img": "Assets/Images/imagename.fileExtension",
-      "desc": "description for owner of database",
-      "Name": "name of item",
-      "ID": "ID number ",
-      "longDesc": "Description for the website",
-      "Catagory": "Catagory EI where it is going",
-      "Price" : "Price if necessary "
-    },
+JSON Entry Documentation
+Each new entry in the database.json file must strictly follow this structural blueprint:
+json
+{
+  "img": "Assets/Images/imagename.fileExtension",
+  "desc": "description for owner of database",
+  "Name": "name of item",
+  "ID": "ID number ",
+  "longDesc": "Description for the website",
+  "Catagory": "Catagory EI where it is going",
+  "Price" : "Price if necessary "
+}
+Use code with caution.
+Field Breakdowns & Validation Rules
+img (String)
+Purpose: Defines the relative file path to the item image asset.
+Format: Must start with Assets/Images/.
+Rules: Case-sensitive. Match the file extension exactly (e.g., .png, .jpg, .webp). Avoid spaces in filenames.
+desc (String)
+Purpose: Internal shorthand note for the database administrator.
+Format: Keep it brief and administrative.
+Rules: Do not include marketing text here. Use it for stock notes, supplier info, or internal tracking details.
+Name (String)
+Purpose: The official title of the product or item.
+Format: Title Case (capitalize the first letter of major words).
+Rules: Keep it clean and concise. This name displays prominently on the user interface.
+ID (String/Integer)
+Purpose: A unique identifier for the database item.
+Format: Standardized numeric or alphanumeric code.
+Rules: Ensure no two entries share the same ID. Check for accidental trailing spaces inside the quotation marks.
+longDesc (String)
+Purpose: Comprehensive product description visible to website visitors.
+Format: Full sentences with proper punctuation.
+Rules: Include key features, dimensions, or materials. HTML tags (like <br> or <strong>) may be allowed depending on your frontend setup.
+Catagory (String)
+Purpose: Dictates the website section or page routing for the item.
+Format: Exact matching keyword from your site's predefined navigation tree.
+Rules: Note the specific spelling (Catagory with an 'a'). Entries with misspelled categories will fail to render on the site.
+Price (String)
+Purpose: Retail cost of the item.
+Format: Include the currency symbol (e.g., "$19.99").
+Rules: If an item is free or lacks a price, use "N/A" or "0.00". Do not leave the field empty.
+Important JSON Syntax Reminders
+Trailing Commas: Every entry block must end with a comma , unless it is the absolute last item in the database array.
+Double Quotes: JSON strictly requires double quotes "" for all keys and string values. Single quotes '' will cause a syntax error.
