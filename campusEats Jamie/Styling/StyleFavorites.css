@@ -1,0 +1,33 @@
+.favItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    font-family: "MyOtherCustomFont", "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100%;
+    background-image: url("../Assets/Picture10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.favItem .item {
+    width: 250px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+a.active{
+    text-decoration: underline;
+    color: yellow;
+}
+.favItem .item:hover{
+    width:260px;
+    height:300px;
+    transition: height 125ms, width 250ms;
+}

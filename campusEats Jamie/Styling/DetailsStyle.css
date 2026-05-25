@@ -1,0 +1,12 @@
+body{
+    height: 100%;
+    background-image: url("../Assets/Picture10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+h1, p{
+    font-family: 'MyOtherCustomFont', serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
