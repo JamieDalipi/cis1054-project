@@ -1,0 +1,245 @@
+
+{
+  "Data": [
+    {
+      "img": "../Assets/Bacon-and-Egg-Bagels.jpg",
+      "desc": "Classic New York styled Bagels cut into two slices in a plate, composed of bacon and eggs",
+      "Name": "Bacon & Egg Bagels",
+      "ID": "1",
+      "Ingredients": "Fried Bacon, Fried Eggs, Bread",
+      "Category": "Breakfast",
+      "Price" : "€4.50"
+    },
+    {
+      "img": "../Assets/Brownies.jpg",
+      "desc": "Rich and Flavored chocolate/caramel brownies to your liking",
+      "Name": "Brownies",
+      "ID": "1",
+      "Ingredients": "Butter, Sugar, Eggs, Cocoa Eggs, Cocoa-Powder, Caramel (optional), Flour, Vanilla Extract, Salt (optional)",
+      "Category": "Desserts",
+      "Price": "€3.25 per piece"
+    },
+    {
+      "img": "../Assets/Cappuccino.jpg",
+      "desc": "Cappuccino Coffee in a mug, served with additional milk",
+      "Name": "Cappuccino",
+      "ID": "1",
+      "Ingredients": "Espresso, Water, Milk (Optional), Milk Foam",
+      "Category": "Drinks",
+      "Price": "€4.00"
+    },
+    {
+      "img": "../Assets/Cheeseburger-With-Fries.jpg",
+      "desc": "Standard Cheeseburger, with optional fries as a side dish",
+      "Name": "Cheeseburger",
+      "ID": "1",
+      "Ingredients": "Patties, Steak, Cheese, Bacon (Optional), Tomatoes, Fries (Optional)",
+      "Category": "Main",
+      "Price": "€6.00, €7.50 w/Fries"
+    },
+    {
+      "img": "../Assets/Chocolate-Cake.jpg",
+      "desc": "A slice of chocolate cake",
+      "Name": "Chocolate Cake",
+      "ID": "2",
+      "Ingredients": "Flour, Sugar, Cocoa Powder, Baking Powder, Baking Soda, Salt (Optional), Eggs, Milk",
+      "Category": "Desserts",
+      "Price": "€3.50 per slice"
+    },
+    {
+      "img": "../Assets/Coca-Cola.jpg",
+      "desc": "a bottle of coca cola",
+      "Name": "Coca Cola",
+      "ID": "2",
+      "Ingredients": "Coca Cola, Sugar (Optional)",
+      "Category": "Drinks",
+      "Price": "€1.50 (500 ml), €2.00 (1 l), €2.50 (1.5 l)"
+    },
+    {
+      "img": "../Assets/Egg-Toast.jpg",
+      "desc": "Egg Toast, made with standard bread mixed with fried eggs",
+      "Name": "Egg Toast",
+      "ID": "2",
+      "Ingredients": "Egg, Bread",
+      "Category": "Breakfast",
+      "Price": "€2.50"
+    },
+    {
+      "img": "../Assets/English-Breakfast.jpg",
+      "desc": "A traditional English breakfast, served with additional sausages",
+      "Name": "English Breakfast",
+      "ID": "3",
+      "Ingredients": "Bacon, Beans, Sausages (Optional), Fried Egg, Toast, Tomatoes",
+      "Category": "Breakfast",
+      "Price": "€5.75 (Without Sausages), €6.25 (With Sausages)"
+    },
+    {
+      "img": "../Assets/Fruit-Dessert-Whipped-Cream.jpg",
+      "desc": "A strawberry in a glass, served with whipped cream and cherry on top",
+      "Name": "Fruit Dessert",
+      "ID": "3",
+      "Ingredients": "Strawberry, Whipped Cream, Cherry, Biscuits",
+      "Category": "Desserts",
+      "Price": "€5.00"
+    },
+    {
+      "img": "../Assets/Gyro-Wrap.jpg",
+      "desc": "A traditional Greek Gyro wrap, could also be served in a plate",
+      "Name": "Gyro Wrap",
+      "ID": "2",
+      "Ingredients": "Roasted Meat (Lamp, Pork, Chicken), Tzatziki Sauce, Tomatoes, Onions, Pita Bread, Fries",
+      "Category": "Main",
+      "Price": "€7.50"
+    },
+    {
+      "img": "../Assets/Hot-Chocolate.jpg",
+      "desc": "Hot Chocolate in a mug",
+      "Name": "Hot Chocolate",
+      "ID": "3",
+      "Ingredients": "Chocolate, Lukewarm Milk",
+      "Category": "Drinks",
+      "Price": "€3.00"
+    },
+    {
+      "img": "../Assets/caeserSalad.jpg",
+      "desc": "Classic Caesar Salad",
+      "Name": "Caesar Salad",
+      "ID": "4",
+      "Ingredients": "Lettuce, Tomatoes, Garlic Cruotons, Parmesean cheese, Egg Yolk, Olive Oil, Juice, Mustard, Anchovies",
+      "Category": "Breakfast",
+      "Price": "€6.50"
+    },
+    {
+      "img": "../Assets/Hotdog-With-Fries.jpg",
+      "desc": "Hotdog with mustard on top, served with fries",
+      "Name": "Hotdog",
+      "ID": "3",
+      "Ingredients": "Bread, Sausage, Mustard, Ketchup, Mayonnaise, Fries (Optional)",
+      "Category": "Main",
+      "Price": "€6.50, €7.50 (with fries)"
+    },
+    {
+      "img": "../Assets/Kebab-With-Fries.jpg",
+      "desc": "Traditional Turkish Doner Kebab, made with the ingredients of your choice, could also be served on a plate",
+      "Name": "Kebab",
+      "ID": "4",
+      "Ingredients": "Wrap, Doner (Chicken, Lamb), Fries (Optional), Coleslaw (Optional), Tomatoes (Optional), Yogurt Sauce, Paprika (Optional), Garlic Seasoning, Onion (Optional)",
+      "Category": "Main",
+      "Price": "€8.00, €9.00 (with fries)"
+    },
+    {
+      "img": "../Assets/Maki-Sushi.jpg",
+      "desc": "Sushi with Salmon and Rice Fillings, wrapped in seaweed",
+      "Name": "Maki sushi",
+      "ID": "1",
+      "Ingredients": "Rice, seaweed, raw salmon, avocado (optional), cucumber (optional)",
+      "Category": "Sushi",
+      "Price": "€3.00 per piece"
+    },
+    {
+      "img": "../Assets/Mussels-in-Bowl.jpg",
+      "desc": "40 cooked mussels, served in a bowl",
+      "Name": "Mussels",
+      "ID": "5",
+      "Ingredients": "Mussels",
+      "Category": "Main",
+      "Price": "€9.50"
+    },
+    {
+      "img": "../Assets/Nigiri-Sushi.jpg",
+      "desc": "Standard Nigiri Sushi with no wrappings",
+      "Name": "Nigiri Sushi",
+      "ID": "2",
+      "Ingredients": "Rice, Sugar, Salt, Salmon, Soy-Sauce",
+      "Category": "Sushi",
+      "Price": "€2.50 per piece"
+    },
+    {
+      "img": "../Assets/Pasta-Capriciosa.jpg",
+      "desc": "Italian Pasta Capricciosa, mixing spaghetti and meat in a plate",
+      "Name": "Pasta Capricciosa",
+      "ID": "6",
+      "Ingredients": "Pasta, Ham, Prosciutto, Mushrooms (Optional), Olives (Optional), Parmesean Cheese, Tomato Sauce",
+      "Category": "Main",
+      "Price": "€7.00"
+    },
+    {
+      "img": "../Assets/Pizza-with-Tomatoes.jpg",
+      "desc": "Pizza with spicy tomato slices",
+      "Name": "Pizza w/Tomatoes",
+      "ID": "7",
+      "Ingredients": "Dough, Mozzarella, Tomato Sauce, Tomato Slices, Salt",
+      "Category": "Main",
+      "Price": "€6.00 (Small), €7.00 (Medium), €9.00 (Large)"
+    },
+    {
+      "img": "../Assets/Sashimi-Sushi.jpg",
+      "desc": "Sushi served as slices of raw fish",
+      "Name": "Sashimi Sushi",
+      "ID": "3",
+      "Ingredients": "Raw Salmon, Soy-Sauce",
+      "Category": "Sushi",
+      "Price": "€2.00 per piece"
+    },
+    {
+      "img": "../Assets/Steak.jpg",
+      "desc": "A big portion of well-done steak on a plate",
+      "Name": "Steak",
+      "ID": "8",
+      "Ingredients": "Steak, Seasoning, Lemon Juice (Optional)",
+      "Category": "Main",
+      "Price": "€11.00"
+    },
+    {
+      "img": "../Assets/Tea.jpg",
+      "desc": "Tea in a mug with a customizable flavor",
+      "Name": "Tea",
+      "ID": "4",
+      "Ingredients": "Hot Water, Peppermint (optional), Black (optional), Green (Optional), White (Optional)",
+      "Category": "Drinks",
+      "Price": "€4.00"
+    },
+    {
+      "img": "../Assets/Tiramisu.jpg",
+      "desc": "Sweet Tiramisu, offered in a glass",
+      "Name": "Tiramisu",
+      "ID": "4",
+      "Ingredients": "Cheese, Eggs, Sugar, Cocoa Powder, Caffeine",
+      "Category": "Desserts",
+      "Price": "€5.00"
+    },
+    {
+      "img": "../Assets/Urumaki-Sushi.jpg",
+      "desc": "Sushi consisting of rice and salmon wrapped inside a nori sheet",
+      "Name": "Uramaki Sushi",
+      "ID": "4",
+      "Ingredients": "Rice, Salmon, Cucumber (optional), Sesame Seeds",
+      "Category": "Sushi",
+      "Price": "€4.00 per piece"
+    },
+    {
+      "img": "../Assets/Vanilla-Ice-Cream.jpg",
+      "desc": "Vanilla Ice-Cream, served in a glass",
+      "Name": "Vanilla Ice-Cream",
+      "ID": "5",
+      "Ingredients": "Cream, Milk, Vanilla, Sugar",
+      "Category": "Desserts",
+      "Price": "€4.00"
+    },
+    {
+      "img": "../Assets/Water-Bottle.jpg",
+      "desc": "Water Bottle",
+      "Name": "Water Bottle",
+      "ID": "5",
+      "Ingredients": "Water",
+      "Category": "Drinks",
+      "Price": "€0.50 (500ml), €1.00 (1 l), €1.50 (2 l)"
+    }
+  ],
+    "business": [
+      {
+        "phone": "98899930",
+        "email": "campuseats@gmail.com"
+      }
+    ]
+}
