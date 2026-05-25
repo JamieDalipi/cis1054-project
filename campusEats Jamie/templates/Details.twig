@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ item.name }}</title>
+    <link rel="stylesheet" href="../Styling/Style.css">
+    <link rel="stylesheet" href="../Styling/DetailsStyle.css">
+    <link rel="stylesheet" href="../Styling/main.css">
+</head>
+<body>
+{% include 'navbar.twig' %}
+<br><br><br><br>
+<h1>{{ item.name }}</h1>
+<img src="{{ item.image }}" alt="{{ item.name }}" width=10% height=20%>
+<p>Price: {{ item.price }}</p>
+<p>{{ item.desc }}</p>
+<p>{{ item.ingredients }}</p>
+<p>Category: {{ item.category }}</p>
+<button class="button"
+        data-id="{{ item.id }}"
+        data-category="{{ item.category }}"
+        data-name="{{ item.name }}"
+        data-img="{{ item.image }}"
+        data-desc="{{ item.desc }}"
+        data-price="{{ item.price }}">
+    ❤️
+</button>
+<script src="../JavaScript/cookies.js"></script>
+</body>
+{% include 'footer.twig' %}
+</html>

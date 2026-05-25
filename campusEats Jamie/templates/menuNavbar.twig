@@ -1,0 +1,18 @@
+{% block content %}
+    <br><br><br><br>
+    <div class="menuoption">
+        <div><a href="../SiteRenders/Category.php?category=Breakfast"
+                class="{% if currentPage == 'Breakfast' %}active{% endif %}">BREAKFAST</a></div>
+        <div><a href="../SiteRenders/Category.php?category=Sushi"
+                class="{% if currentPage == 'Sushi' %}active{% endif %}">SUSHI</a></div>
+        <div><a href="../SiteRenders/Category.php?category=Main"
+                class="{% if currentPage == 'Main' %}active{% endif %}">MAIN</a></div>
+        <div><a href="../SiteRenders/Category.php?category=Desserts"
+                class="{% if currentPage == 'Desserts' %}active{% endif %}">DESSERTS</a></div>
+        <div><a href="../SiteRenders/Category.php?category=Drinks"
+                class="{% if currentPage == 'Drinks' %}active{% endif %}">DRINKS</a></div>
+        <div><a href="../SiteRenders/Favorites.php"
+            class="{% if currentPage == 'Favorites' %}active{% endif %}" id="favLink">FAVORITES</a></div>
+    </div>
+    <script src="../JavaScript/favIndicator.js"></script>
+{% endblock %}

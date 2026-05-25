@@ -1,0 +1,51 @@
+
+
+{% block page_title %}Contact Us{% endblock %}
+
+{% block content %}
+    {% include "navbar.twig" %}
+    <br><br><br>
+    <div class="container">
+        <div class="logo">
+            {% include "layout.twig" %}
+            <img src = "../Assets/meal.jpg" alt="Meal" width=100% height=35% style="position:relative;">
+            <img src = "../Assets/Service-1.jpg" alt="Service 1" width=100% height=35% style="position:relative;">
+        </div>
+        <div class="content">
+            <h1>Get in touch, we at CampusEats love to hear from our Customers!</h1>
+            <p>Call us on {{ business.phone }} to get in touch with us</p>
+            <p>Alternatively, you can email us on {{ business.email }}</p>
+            <p>Should you like to contact us or send
+                us your feedback vie email,
+                please fill in and submit the form below.
+                Kindly let us know where you would like to direct
+                your comment to by selecting an option from
+                the drop down menu</p>
+            <form method="post">
+                <label>Name:</label>
+                <input type="text" name="fname" placeholder="Your name.." required>
+                {% if nameErr %}
+                    <span>{{ nameErr }}</span>
+                {% endif %}
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Your email.." required>
+                {% if emailErr %}
+                    <span>{{ emailErr }}</span>
+                {% endif %}
+                <label>Message Type:</label>
+                <select name="request" id="request">
+                    <option value="query">Query</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="bookingrequest">Booking request</option>
+                </select>
+                <label>Message:</label>
+                <textarea name="comment" placeholder="Your important message.."></textarea>
+                {% if messageErr %}
+                    <span>{{ messageErr }}</span>
+                {% endif %}
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    {% include 'footer.twig' %}
+{% endblock %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../Styling/MenuStyle.css">
+    <link rel="stylesheet" href="../Styling/Style.css">
+</head>
+<body>
+    {% include 'navbar.twig' %}
+    <br><br><br><br><br><br><br><br>
+    <a href="../SiteRenders/Favorites.php" id="favLink">Favorites</a>
+    <br><br><br>
+    <div class="option">
+        <a href="../SiteRenders/Category.php?category=Breakfast"><div>Breakfast
+            <br>
+                <img src="{{ breakfastItem.image }}" alt="{{ breakfastItem.name }}" width="200" height="200" style="position:relative; margin-top:15px;">
+            </div></a>
+        <a href="../SiteRenders/Category.php?category=Sushi"><div>Sushi<br>
+                <img src="{{ sushiItem.image }}" alt="{{ sushiItem.name }}"  width="200" height="200" style="position:relative; margin-top:15px;">
+            </div></a>
+        <a href="../SiteRenders/Category.php?category=Main"><div>Main
+                <img src="{{ mainItem.image }}" alt="{{ mainItem.name }}" width="200" height="200" style="position:relative; margin-top:15px;">
+            </div></a>
+        <a href="../SiteRenders/Category.php?category=Desserts"><div>Desserts<br>
+                <img src="{{ dessertItem.image }}" alt="{{ dessertItem.name }}"  width="200" height="200" style="position:relative; margin-top:15px;">
+            </div></a>
+        <a href="../SiteRenders/Category.php?category=Drinks"><div>Drinks<br>
+                <img src="{{ DrinksItem.image }}" alt="{{ DrinksItem.name }}" width="200" height="200" style="position:relative; margin-top:15px;">
+            </div></a>
+    </div>
+<script src="../JavaScript/favIndicator.js"></script>
+</body>
+{% include 'footer.twig' %}
+</html>

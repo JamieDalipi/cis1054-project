@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{category}}</title>
+    <link rel="stylesheet" href="../Styling/Style.css">
+    <link rel="stylesheet" href="../Styling/MenuSectionStyle.css">
+</head>
+<body>
+{% include 'navbar.twig' %}
+{% include 'menuNavbar.twig' %}
+<br>
+<div class="items-container">
+    {% for item in categoryItems %}
+        <a href="../SiteRenders/Details.php?id={{ item.id }}&category={{ item.Category }}">
+            <div class="item">
+                <img src="{{ item.image }}" width="200" height="200" alt="{{ item.name }}">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.desc }}</p>
+                <br>
+                <p>{{ item.price }}</p>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+{% include 'footer.twig' %}
+</body>
+<script src="../JavaScript/favIndicator.js"></script>
+</html>

@@ -1,0 +1,28 @@
+
+{% block page_title %}About Us{% endblock %}
+
+{% block content %}
+
+
+<link rel="stylesheet" href="../Styling/Style.css">
+<link rel="stylesheet" href="../Styling/About-us.css">
+<body>
+{% include 'navbar.twig' %}
+<br><br><br>
+<div class="container">
+    <div class="logo">
+        {% include 'layout.twig' %}
+        <img src ="../Assets/pizza.jpeg" alt="Pizza" width=80% height=25% style="position:relative;">
+        <img src = "../Assets/caeser-salad.jpg" alt="Caesar Salad" width=80% height=25% style="position:relative;">
+    </div>
+    <div class="content">
+        <h1>CampusEats - How it came to be</h1>
+        <p>The newfound legacy of CampusEats began in early 2021 when the university of Malta suggested to have a main restaurant for University students and staff during break, with the Vassallo group. Despite the initative being considered risky, the University went through with it for the students.</p>
+        <p>During CampusHub's last stage of development, CampusEats underwent production upon opening, the establishment. Students flocked to CampusEats despite the initally small menu</p>
+        <h2>CampusEats - A Success Story</h2>
+        <p>Following CampusEats continued success in 2023, the menu was expanded to include a wider variety of dishes to please student's expectations. The university would then start a program that allows student associations to work with CampusEats as members of staff to gain work experience.</p>
+    </div>
+</div>
+{% include 'footer.twig' %}
+</body>
+{% endblock %}
